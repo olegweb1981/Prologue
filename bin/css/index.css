@@ -114,18 +114,22 @@ p {
 
 .sidebar .menu {
   padding: 7px 0;
-}
-
-.sidebar .menu ul {
   display: flex;
   flex-direction: column;
 }
 
-.sidebar .menu ul li {
+.sidebar .menu button {
   text-align: right;
-  padding: 11px 38px 12px 38px;
+  padding: 22px 38px 22px 38px;
   position: relative;
-  cursor: pointer;
+  border: none;
+  outline: none;
+  font-weight: 300;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.sidebar .menu button:active, .sidebar .menu button:hover {
+  outline: none;
 }
 
 .sidebar .menu a {

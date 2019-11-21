@@ -28,16 +28,20 @@
 
     .menu {
         padding: 7px 0;
+        display: flex;
+        flex-direction: column;
 
-        ul {
-            display: flex;
-            flex-direction: column;
+        button {
+            text-align: right;
+            padding: 22px 38px 22px 38px;
+            position: relative;
+            border: none;
+            outline: none;
+            font-weight: 300;
+            font-family: 'Source Sans Pro', sans-serif;
 
-            li {
-                text-align: right;
-                padding: 11px 38px 12px 38px;
-                position: relative;
-                cursor: pointer;
+            &:active, &:hover {
+                outline: none;
             }
         }
 
