@@ -1,0 +1,18 @@
+@media screen and (max-width: $md-width) {
+    .header {
+    
+        h2 {
+            padding-top: 218px;
+        }
+    }
+    
+    .menu {
+        display: none;
+    }
+    
+    .slogan {
+        font-size: 13.2px;
+        letter-spacing: 2.64px;
+        padding: 6px 0 225px 0;
+    }
+}

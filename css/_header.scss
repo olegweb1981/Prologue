@@ -1,0 +1,19 @@
+.main {
+
+    .header {
+        background-image: url(/img/banner.jpg);
+        padding: 253px 0 273px 0;
+        text-align: center;
+        background-size: cover;
+        background-position: top center;
+
+        h1 {
+            color: rgba(255, 255, 255, 0.75);
+        }
+
+        p {
+            padding: 26px 0 69px 0;
+            color: rgba(255, 255, 255, 0.75);
+        }
+    }
+}
