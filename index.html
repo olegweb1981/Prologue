@@ -40,10 +40,12 @@
             </ul> -->
 
             <div class="menu filters">
-                <button class="text-dark"><a href="#"><i class="fas fa-home"></i>Intro<a></button>
-                <button class="text-body"><a href="#galleryo"><i class="fas fa-th"></i>Portfolio</a></button>
-                <button class="text-body"><a href="#banner"><i class="fas fa-user"></i>About Me</a></button>
-                <button class="text-body"><a href="#contact"><i class="fas fa-envelope"></i>Contact</a></button>
+                <ul>
+                    <a href="#" onclick="slowScroll ('.wrapper')"><li class="nav-item active"><i class="fas fa-home"></i>Intro</li></a>
+                    <a href="#gallery" onclick="slowScroll ('#gallery')"><li class="nav-item"><i class="fas fa-th"></i>Portfolio</li></a>
+                    <a href="#banner" onclick="slowScroll ('#banner')"><li class="nav-item"><i class="fas fa-user"></i>About Me</li></a>
+                    <a href="#contact" onclick="slowScroll ('#contact')"><li class="nav-item"><i class="fas fa-envelope"></i>Contact</li></a>
+                </ul>
             </div>
             <div class="social">
                 <i class="fab fa-twitter"></i>
@@ -77,13 +79,13 @@
                     </p>
                     <div class="transitions filters" id="filters">
                         <div class="btn-link">
-                            <button class="text-dark font-weight-bold" data-filter="*">All</button>
+                            <button class="active" data-filter="*">All</button>
                         </div>
                         <div class="btn-link">
-                            <button class="text-body" data-filter="models">Models</button>
+                            <button data-filter="models">Models</button>
                         </div>
                         <div class="btn-link">
-                            <button class="text-body" data-filter="weddings">Weddings</button>
+                            <button data-filter="weddings">Weddings</button>
                         </div>
                     </div>
                     <div class="gallery-item shuffle" id="grid">
@@ -135,10 +137,26 @@
                         Libero rutrum ut lacinia donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc orci 
                         ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.
                     </p>
+                    <div class="form-group">
+                        <input type="name" name="name" id="" placeholder="Name">
+                        <input type="email" name="email" id="" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
+                    <a class="btn" href="#">Send Message</a>
                 </div>
             </div>
             <div class="footer">
-                <div class="container"></div>
+                <div class="container">
+                    <div class="copyring">
+                        <ul>
+                            <li>© Untitled. All rights reserved.</a></li>
+                            <li>Design: <a href="#">HTML5 UP</a></li>
+                            <li>Demo Images: <a href="#">Felicia Simion</a> + <a href="#">Unsplash</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

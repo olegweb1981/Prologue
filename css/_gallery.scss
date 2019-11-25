@@ -15,19 +15,6 @@
         display: flex;
         justify-content: flex-end;
 
-        .text-body {
-            font-size: 14px;
-            color: #888;
-        }
-
-        .text-dark {
-            color: black;
-        }
-
-        .font-weight-bold {
-            font-weight: 600;
-        }
-
         .btn-link {
             padding-left: 15px;
         }
@@ -35,6 +22,14 @@
         button {
             text-align: center;
             border: none;
+            outline: none;
+            font-size: 14px;
+            color: #888;
+        }
+
+        .active {
+            color: black;
+            font-weight: 600;
         }
     }
 

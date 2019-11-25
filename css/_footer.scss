@@ -1,0 +1,29 @@
+.footer {
+    background-color: #DCE3E2;
+}
+
+.copyring {
+    padding: 73px 0 32px 0;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        li {
+            font-size: 20px;
+            border-left: 1px solid rgba(0, 0, 0, 0.25);
+            padding-left: 14px;
+            margin-left: 14px;
+            line-height: 20px;
+            letter-spacing: normal;
+            display: inline-block;
+
+            &:first-child {
+                border-left: 0;
+                padding-left: 0;
+                margin-left: 0;
+            }
+        }
+    }
+}
