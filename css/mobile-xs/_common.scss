@@ -1,0 +1,25 @@
+@media screen and (max-width: $xs-width) {
+    body {
+        font-size: 16pt;
+    }
+
+    .main {
+        margin-left: 0;
+    }
+
+    .container {
+        padding: 23px 15px;
+        width: 100%;
+    }
+
+    h1 {
+        letter-spacing: normal;
+        line-height: 42px;
+        font-size: 28px
+    }
+
+    p {
+        font-size: 19px;
+        line-height: 32.6667px;
+    }
+}

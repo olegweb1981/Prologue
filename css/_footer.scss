@@ -1,5 +1,9 @@
 .footer {
     background-color: #DCE3E2;
+
+    .container {
+        padding: 60px 0;
+    }
 }
 
 .copyring {
@@ -24,6 +28,15 @@
                 padding-left: 0;
                 margin-left: 0;
             }
+        }
+    }
+
+    .link {
+        color: #888;
+        border-color: #888;
+
+        &:hover {
+            color: #E27689;
         }
     }
 }

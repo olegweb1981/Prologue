@@ -1,0 +1,24 @@
+@media screen and (max-width: $xl-width) {
+    body {
+        font-size: 17pt;
+    }
+
+    .main {
+        margin-left: 300px;
+    }
+
+    .container {
+        padding: 50px 0;
+        width: 1200px;
+    }
+
+    h1 {
+        font-size: 45px;
+        letter-spacing: -1px;
+        line-height: 68px;
+    }
+
+    p {
+        font-size: 23.3333px;
+    }
+}

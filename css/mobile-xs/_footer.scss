@@ -1,0 +1,25 @@
+@media screen and (max-width: $xs-width) {
+
+    .footer {
+        .container {
+            padding: 36px 0;
+        }
+    }
+
+    .copyring {
+        padding: 1px 0 18px 0;
+
+        ul {
+            flex-direction: column;
+            align-items: center;
+
+            li {
+                font-size: 15px;
+                line-height: 32.333px;
+                border-left: 0;
+                margin-left: 0;
+                padding-left: 0;
+            }
+        }
+    }
+}

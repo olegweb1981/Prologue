@@ -1,0 +1,16 @@
+@media screen and (max-width: $md-width) {
+
+    .copyring {
+        padding: 10px 0 29px 0;
+
+        ul {
+
+            li {
+                font-size: 16px;
+                padding-left: 11px;
+                margin-left: 11px;
+                line-height: 17px;
+            }
+        }
+    }
+}

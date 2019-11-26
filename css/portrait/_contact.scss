@@ -1,0 +1,38 @@
+@media screen and (max-width: $md-width) {
+    .contact {
+
+        .container {
+            padding: 50px 42px 81px 42px;
+        }
+
+        h1 {
+            padding: 14px 0;
+        }
+
+        p {
+            padding: 27px 0 42px 0;
+        }
+
+        .form-group, textarea {
+            padding-bottom: 19px;
+        }
+
+        .form-group {
+
+            input, textarea {
+                font-size: 21px;
+                padding: 15px 21px;
+            }
+
+            input {
+                width: 49%;
+            }
+
+            textarea {
+                height: 301px;
+                padding: 21px 21px;
+                margin-bottom: 16px;
+            }
+        }
+    }
+}

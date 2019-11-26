@@ -9,14 +9,51 @@
 @import 'contact';
 @import 'footer';
 
-
 //desctop
+@import 'desctop/common';
+@import 'desctop/sidebar';
+@import 'desctop/header';
+@import 'desctop/button';
 @import 'desctop/gallery';
+@import 'desctop/banner';
+@import 'desctop/contact';
+@import 'desctop/footer';
 
 //tablet
+@import 'tablet/common';
+@import 'tablet/sidebar';
+@import 'tablet/header';
+@import 'tablet/button';
+@import 'tablet/gallery';
+@import 'tablet/banner';
+@import 'tablet/contact';
+@import 'tablet/footer';
 
 //portrait
+@import 'portrait/common';
+@import 'portrait/sidebar';
+@import 'portrait/header';
+@import 'portrait/button';
+@import 'portrait/gallery';
+@import 'portrait/banner';
+@import 'portrait/contact';
+@import 'portrait/footer';
 
 //mobile
+@import 'mobile/common';
+@import 'mobile/sidebar';
+@import 'mobile/header';
+@import 'mobile/button';
+@import 'mobile/gallery';
+@import 'mobile/banner';
+@import 'mobile/contact';
+@import 'mobile/footer';
 
 //mobile-xs
+@import 'mobile-xs/common';
+@import 'mobile-xs/header';
+@import 'mobile-xs/button';
+@import 'mobile-xs/gallery';
+@import 'mobile-xs/banner';
+@import 'mobile-xs/contact';
+@import 'mobile-xs/footer';

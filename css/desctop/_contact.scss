@@ -1,0 +1,38 @@
+@media screen and (max-width: $xl-width) {
+    .contact {
+
+        .container {
+            padding: 50px 0 108px 0;
+        }
+
+        h1 {
+            padding: 41px 0;
+        }
+
+        p {
+            padding: 4px 0 45px 0;
+        }
+
+        .form-group, textarea {
+            padding-bottom: 39px;
+        }
+
+        .form-group {
+
+            input, textarea {
+                font-size: 23px;
+                padding: 16px 22px;
+            }
+
+            input {
+                width: 48.4%;
+            }
+
+            textarea {
+                height: 319px;
+                padding: 20px 22px;
+                margin-bottom: 16px;
+            }
+        }
+    }
+}

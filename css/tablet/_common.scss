@@ -1,0 +1,23 @@
+@media screen and (max-width: $lg-width) {
+    body {
+        font-size: 17pt;
+    }
+
+    .main {
+    }
+
+    .container {
+        padding: 50px 0;
+        width: 960px;;
+    }
+
+    h1 {
+        font-size: 45px;
+        letter-spacing: -1px;
+        line-height: 68px;
+    }
+
+    p {
+        font-size: 23.3333px;
+    }
+}

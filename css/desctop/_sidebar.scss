@@ -1,0 +1,44 @@
+@media screen and (max-width: $xl-width) {
+    .sidebar {
+        width: 300px;
+
+        .header {
+            padding: 40px 34px 14px 34px;
+        }
+
+        .user {
+            font-size: 23px;
+            line-height: 24px;
+        }
+
+        .function {
+            font-size: 13.6px;
+            line-height: 25px;
+        }
+
+        .menu {
+            padding: 7px 0;
+
+            li {
+                font-size: 18px;
+                padding: 12px 34px 11px 30px;
+            }
+
+            i {
+                font-size: 18px;
+                width: 30px;
+                height: 30px;
+                padding: 0;
+            }
+        }
+
+        .social {
+            padding: 19px 0;
+
+            i {
+                font-size: 18px;
+                padding-left: 19px;
+            }
+        }
+    }
+}

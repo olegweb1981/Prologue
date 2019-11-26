@@ -30,7 +30,9 @@ body {
 }
 
 .container {
-    padding: 60px 64px;
+    padding: 60px 0;
+    width: 1400px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -51,6 +53,6 @@ p {
 
     &:hover {
         border-bottom: 0;
-        transition: 1s ease-in-out;
+        transition: 0.5s ease-in-out;
     }
 }

@@ -1,0 +1,37 @@
+@media screen and (max-width: $md-width) {
+    .gallery {
+
+        .container {
+            padding: 50px 42px 43px 42px;
+        }
+
+        h1 {
+            padding: 14px 0;
+        }
+
+        p {
+            padding: 29px 1px 4px 1px;
+        }
+
+        .transitions {
+            padding: 0px 0 2px 0;
+        }
+
+        .gallery-item {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: -20px;
+        }
+    
+        .item {
+            margin-bottom: 18px;
+            padding-left: 20px;
+    
+            .name-img {
+                font-size: 17px;
+                padding: 14px 0;
+                margin-top: -14px;
+            }
+        }
+    }
+}

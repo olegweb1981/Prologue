@@ -1,29 +1,12 @@
 @media screen and (max-width: $lg-width) {
-    .header {
+    .main {
+
+        .header {
+            padding: 113px 0 130px 0;
     
-        h2 {
-            letter-spacing: 6.41667px;
-            font-size: 25.6667px
-        }
-    }
-    
-    .menu {
-        padding: 37px 0 152px 0;
-    
-        ul {
-            width: 55.9%;
-    
-            li {
-                font-size: 10px;
-                letter-spacing: 2.5px;
-                padding: 9px 5px 8px 5px;
+            p {
+                padding: 21px 0 64px 0;
             }
         }
-    }
-    
-    .slogan {
-        font-size: 13.2px;
-        letter-spacing: 2.64px;
-        padding: 6px 0 203px 0;
     }
 }

@@ -1,0 +1,24 @@
+@media screen and (max-width: $md-width) {
+    body {
+        font-size: 16pt;
+    }
+
+    .main {
+        margin-left: 0;
+    }
+
+    .container {
+        padding: 50px 43px;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 43px;
+        letter-spacing: -1px;
+        line-height: 64px;
+    }
+
+    p {
+        font-size: 21px;
+    }
+}
