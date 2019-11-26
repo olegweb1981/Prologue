@@ -1,10 +1,10 @@
-@media screen and (max-width: $md-width) {
+@media screen and (max-width: $sm-width) {
     body {
         font-size: 16pt;
     }
 
     .main {
-        margin-left: 0;
+        margin-left: 20%;
     }
 
     .container {
