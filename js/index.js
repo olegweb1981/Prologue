@@ -1,11 +1,7 @@
 
 //Navbar
-function showMenu() {
-
-  if (document.body.classList.contains('is-menu-visible'))
-      document.body.classList.remove('is-menu-visible');
-  else
-      document.body.classList.add('is-menu-visible');
+function toggleMenu() {
+  $(document.body).toggleClass('is-menu-visible');
 }
 
 //*region Shuffle
@@ -16,18 +12,7 @@ window.shuffleInstance = new window.Shuffle(document.getElementById('grid'), {
   itemSelector: '.item'
 });
 
-filters.on('click', 'button', function() {
-
- /* filterButtons.removeClass('text-dark font-weight-bold');
-  filterButtons.addClass('text-body');
-  $(this).addClass('text-dark font-weight-bold');
-  $(this).removeClass('text-body');
-  */
-  
-  $('button').on('click', function () {
-    $('button').removeClass('active');
-    $(this).addClass('active');
-}) 
+filters.on('click', 'button', function () {  
 
   var filterValue = $(this).attr('data-filter');
 
@@ -38,19 +23,25 @@ filters.on('click', 'button', function() {
   }
 });
 
- baguetteBox.run('#grid');
+baguetteBox.run('#grid');
 
 // toggle .active class
 $('.nav-item').on('click', function () {
-    $('.nav-item').removeClass('active');
-    $(this).addClass('active');
-})  
+  $('.nav-item').removeClass('active');
+  $(this).addClass('active');
+})
+
+$('button').on('click', function () {
+  debugger;
+  $('button').removeClass('active');
+  $(this).addClass('active');
+})
 
 //Slow ScrolL 
 function slowScroll(id) {
   var offset = 0
-  $('html, body').animate ({
-    scrollTop: $(id).offset ().top - offset
+  $('html, body').animate({
+    scrollTop: $(id).offset().top - offset
   }, 1000);
   return false;
 }
